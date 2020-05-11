@@ -34,6 +34,7 @@ public class LoginTest {
   @Test
   public void verify_UserLogin() {
 	  test=extent.startTest("demoLoginPass");
+	  System.out.println("This is Login Page Started");
 	  WebElement element1=driver.findElement(By.xpath("//input[@name='userName']"));
 	  WebElement element2=driver.findElement(By.xpath("//input[@name='password']"));
 	  Assert.assertTrue(element1.isDisplayed());
