@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury Suite">
+  <test name="LoginTestSuite Result">
+    <classes>
+      <class name="LoginHRM.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTestSuite -->
+</suite> <!-- Suite -->
